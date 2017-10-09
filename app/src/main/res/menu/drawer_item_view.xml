@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_my_address"
+            android:icon="@mipmap/ic_my_address"
+            android:title="@string/my_address" />
+        <item
+            android:id="@+id/nav_secure_deposite"
+            android:icon="@mipmap/ic_secure_deposit"
+            android:title="@string/secure_deposit" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@mipmap/ic_history"
+            android:title="@string/history" />
+
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@mipmap/ic_password"
+            android:title="@string/change_password" />
+
+        <item
+            android:id="@+id/nav_change_trans_password"
+            android:icon="@mipmap/ic_trans_password"
+            android:title="@string/change_trans_password" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@mipmap/ic_about_us"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@mipmap/ic_tnc"
+                android:title="@string/terms_conditions" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/ic_logout"
+                android:title="@string/logout"/>
+        </menu>
+    </item>
+</menu>

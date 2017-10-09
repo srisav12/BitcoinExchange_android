@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:src="@mipmap/bitcoin"
+        android:layout_marginTop="@dimen/dp_30"
+        android:contentDescription="@string/app_icon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_22"
+        android:textColor="@color/textColor"
+        android:text="@string/app_name"
+        android:layout_marginTop="@dimen/dp_5" />
+
+    <Button
+        android:id="@+id/loginNavButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="@dimen/sp_15"
+        android:layout_marginTop="@dimen/dp_100"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/login_button_bg"/>
+
+    <Button
+        android:id="@+id/signupNavButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textSize="@dimen/sp_15"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_marginRight="@dimen/dp_40"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/signup_button_bg"/>
+
+    <TextView
+        android:id="@+id/aboutUsNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_40"
+        android:text="@string/about_us_"
+        android:textColor="@drawable/welcome_screen_nav_text_bg"
+        android:textSize="@dimen/sp_20"
+        android:padding="@dimen/dp_5"/>
+
+    <TextView
+        android:id="@+id/helpNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_20"
+        android:textColor="@drawable/welcome_screen_nav_text_bg"
+        android:text="@string/help_"
+        android:padding="@dimen/dp_5"/>
+
+    <TextView
+        android:id="@+id/tncNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_20"
+        android:textColor="@drawable/welcome_screen_nav_text_bg"
+        android:text="@string/terms_conditions_"
+        android:padding="@dimen/dp_5"/>
+</LinearLayout>

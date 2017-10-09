@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bitcoinexchange">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash_screen.splash_screen.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".splash_screen.welcome_screen.WelcomeScreen"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".splash_screen.login_screen.LoginScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginScreenTheme"/>
+
+        <activity android:name=".splash_screen.signup_screen.SignupScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SignUpScreenTheme"/>
+
+        <activity android:name=".splash_screen.forget_password_screen.ForgetPasswordScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/RecoveryScreenTheme"/>
+
+        <activity android:name=".splash_screen.forget_user_id_screen.ForgetUserIDScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/RecoveryScreenTheme"/>
+
+        <activity android:name=".splash_screen.verify_otp_screen.VerifyOTPScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/RecoveryScreenTheme"/>
+
+        <activity android:name=".splash_screen.dashboard_screen.DashboardScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/DashboardTheme"/>
+
+        <activity android:name=".splash_screen.security_pin_creation_screen.SecurityPinCreationScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SecurityPinTheme"/>
+
+        <activity android:name=".splash_screen.security_pin_login_screen.SecurityPinLoginScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SecurityPinTheme"/>
+    </application>
+
+</manifest>

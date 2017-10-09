@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Bitcoin Exchange</string>
+
+    <!--welcome screen strings-->
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="about_us_"><u>About Us</u></string>
+    <string name="help_"><u>Help</u></string>
+    <string name="terms_conditions_"><u>Terms &amp; Conditions</u></string>
+
+
+    <!--login screen strings-->
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="forget_password_"><u>Forget Password?</u></string>
+    <string name="forget_user_id_"><u>Forget User ID?</u></string>
+
+
+    <!--sign up screen strings-->
+    <string name="sponsor_id">Sponsor ID</string>
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile Number</string>
+    <string name="email_id">Email ID</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_accept">I Accept</string>
+
+    <!--forget password screen strings-->
+    <string name="forget_password">Forget Password</string>
+    <string name="submit">Submit</string>
+    <string name="forget_password_heading">Choose any one option</string>
+    <string name="recover_by_email">Recover by Email</string>
+    <string name="recover_by_user_id">Recover by User ID</string>
+
+
+    <!--forget user id screen strings-->
+    <string name="forget_user_id">Forget User ID</string>
+
+
+    <!--verify otp screen strings-->
+    <string name="verify_otp">Verify OTP</string>
+    <string name="otp_code">OTP Code</string>
+    <string name="otp_heading_text">OTP sent successfully on your registered email id.</string>
+    <string name="verify">Verify</string>
+
+
+    <!--dashboard screen strings-->
+    <string name="home">Home</string>
+    <string name="my_address">My Address</string>
+    <string name="secure_deposit">Secure Deposit</string>
+    <string name="history">History</string>
+    <string name="my_profile">My profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_trans_password">Change Trans. Password</string>
+    <string name="logout">Logout</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="about_us">About us</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="tcp_wallet">TCP Wallet</string>
+    <string name="secure_wallet">Secure Wallet</string>
+
+
+    <!--security pin screen strings-->
+    <string name="security_pin">Security Pin</string>
+    <string name="create_pin_desc">Create your Security Pin</string>
+    <string name="login_pin_desc">Enter 4 digits PIN to proceed</string>
+    <string name="enter_pin">Enter Pin</string>
+    <string name="confirm_pin">Confirm Pin</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+
+
+
+
+    <!--image descriptions-->
+    <string name="app_icon">App icon</string>
+
+
+    <!--errors texts-->
+    <string name="err_user_id_entry">Please enter User ID</string>
+    <string name="err_password_entry">Please enter Password</string>
+    <string name="err_sponsor_id_entry">Please enter Sponsor ID</string>
+    <string name="err_name_entry">Please enter name</string>
+    <string name="err_mobile_entry">Please enter mobile number</string>
+    <string name="err_email_entry">Plesea enter email</string>
+    <string name="err_confirm_password_entry">Please enter confirm_password</string>
+    <string name="err_password_mismatch">Password and Confirm password are not same</string>
+    <string name="err_email_validation">Please enter a valid email address</string>
+    <string name="err_phone_number_validation">Please enter a valid mobile number</string>
+    <string name="err_tnc_accept">Please kindly accept Terms &amp; Codition before proceed</string>
+    <string name="err_otp_entry">Please enter OTP code</string>
+    <string name="err_complete_your_pin">Please complete your PIN</string>
+    <string name="err_pin_mismatch">Pin is not same please re-enter.</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21A6AB</color>
+    <color name="colorPrimaryDark">#183378</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="textColor">#F7FFFF</color>
+    <color name="colorPressed">#188075</color>
+    <color name="login_screen_color">#3887a7</color>
+    <color name="signup_screen_color">#8D4B55</color>
+    <color name="login_button_stroke_color">#376078</color>
+    <color name="signup_button_stroke_color">#8D4B55</color>
+    <color name="text_hint_color">#E8E8E8</color>
+    <color name="signup_nav_text_color">#dcdcdc</color>
+    <color name="login_screen_toolbar_color">#1b285b</color>
+    <color name="semi_white_transparant">#70ffffff</color>
+    <color name="transparent">#00ffffff</color>
+</resources>
