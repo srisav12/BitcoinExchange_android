@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#21A6AB</color>
+    <color name="colorPrimary">#3772ae</color>
     <color name="colorPrimaryDark">#183378</color>
     <color name="colorAccent">#ffffff</color>
     <color name="textColor">#F7FFFF</color>
@@ -14,4 +14,27 @@
     <color name="login_screen_toolbar_color">#1b285b</color>
     <color name="semi_white_transparant">#70ffffff</color>
     <color name="transparent">#00ffffff</color>
+    <color name="tab_text_color">#ffffff</color>
+    <color name="light_background_color">#183b78</color>
+    <color name="color_black">#000000</color>
+    <color name="dark_grey_text">#303030</color>
+    <color name="light_grey_text">#afafaf</color>
+    <color name="light_grey_bg_color">#d7d7d7</color>
+    <color name="dark_grey_bg_color">#c2c2c2</color>
+    <color name="color_green">#198066</color>
+    <color name="color_red">#b64957</color>
+
+
+
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#009688</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+
+
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bitcoin Exchange</string>
+    <string name="app_name">TPC Exchange</string>
 
     <!--welcome screen strings-->
     <string name="login">Login</string>
@@ -58,6 +58,7 @@
     <string name="terms_conditions">Terms &amp; Conditions</string>
     <string name="tcp_wallet">TCP Wallet</string>
     <string name="secure_wallet">Secure Wallet</string>
+    <string name="dollar">$ </string>
 
 
     <!--security pin screen strings-->
@@ -74,6 +75,7 @@
 
     <!--image descriptions-->
     <string name="app_icon">App icon</string>
+    <string name="logo_image">Logo image</string>
 
 
     <!--errors texts-->

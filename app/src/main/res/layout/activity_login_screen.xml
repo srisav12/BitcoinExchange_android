@@ -6,9 +6,9 @@
     android:padding="@dimen/dp_20">
 
     <ImageView
-        android:layout_width="@dimen/dp_60"
-        android:layout_height="@dimen/dp_60"
-        android:src="@mipmap/bitcoin"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_80"
+        android:src="@mipmap/ic_logo"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/dp_20"
         android:contentDescription="@string/app_icon"/>

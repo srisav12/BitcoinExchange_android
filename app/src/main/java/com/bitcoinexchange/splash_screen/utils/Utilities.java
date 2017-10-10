@@ -10,6 +10,7 @@ import android.os.Build;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.bitcoinexchange.BuildConfig;
 import com.bitcoinexchange.R;
 
 import java.util.regex.Matcher;
@@ -47,5 +48,20 @@ public class Utilities {
             window.setNavigationBarColor(activity.getResources().getColor(R.color.transparent));
             window.setBackgroundDrawable(background);
         }
+    }
+
+
+    public static void shareTextUrl(Context context) {
+        Intent share = new Intent(android.content.Intent.ACTION_SEND);
+        share.setType("text/plain");
+        share.addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
+
+        // Add data to the intent, the receiving app will decide
+        // what to do with it.
+        final String appPackageName = BuildConfig.APPLICATION_ID;
+        share.putExtra(Intent.EXTRA_TEXT, "Hey! Found this Android app \n https://play.google.com/store/apps/details?id=" +
+                appPackageName);
+
+        context.startActivity(Intent.createChooser(share, "Share link!"));
     }
 }
